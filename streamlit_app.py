@@ -1,4 +1,4 @@
-ORimport streamlit
+import streamlit
 streamlit.title('Healthy Food')
 
 streamlit.header('Breakfast Menu')
