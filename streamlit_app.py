@@ -1,4 +1,4 @@
-import streamlit
+ORimport streamlit
 streamlit.title('Healthy Food')
 
 streamlit.header('Breakfast Menu')
@@ -33,4 +33,4 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # show a df/table of the normalized response
 streamlit.dataframe(fruityvice_normalized)
 
-import snowflake.connector
+import snowflake-connector-python.connector
